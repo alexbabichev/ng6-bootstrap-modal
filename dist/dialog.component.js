@@ -1,10 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = require("@angular/core");
-var Observable_1 = require("rxjs/Observable");
-var Observer_1 = require("rxjs/Observer");
-var dialog_wrapper_component_1 = require("./dialog-wrapper.component");
-var dialog_service_1 = require("./dialog.service");
+var rxjs_1 = require("rxjs");
 var DialogComponent = (function () {
     function DialogComponent(dialogService) {
         this.dialogService = dialogService;
@@ -17,7 +13,7 @@ var DialogComponent = (function () {
             var key = keys[i];
             this[key] = data[key];
         }
-        return Observable_1.Observable.create(function (observer) {
+        return rxjs_1.Observable.create(function (observer) {
             _this.observer = observer;
             return function () {
                 _this.close();

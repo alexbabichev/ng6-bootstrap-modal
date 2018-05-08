@@ -43,7 +43,6 @@ var BootstrapModalModule = (function () {
                     ]
                 },] },
     ];
-    BootstrapModalModule.ctorParameters = function () { return []; };
     return BootstrapModalModule;
 }());
 exports.BootstrapModalModule = BootstrapModalModule;

@@ -4,7 +4,7 @@ import {
 } from "@angular/core";
 import {DialogComponent} from "./dialog.component";
 import {DialogWrapperComponent} from "./dialog-wrapper.component";
-import {Observable} from 'rxjs/Observable';
+import {Observable} from 'rxjs';
 import 'rxjs/add/operator/take';
 import {DialogOptions} from "./dialog.service";
 
