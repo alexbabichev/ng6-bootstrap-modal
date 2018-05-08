@@ -1,6 +1,6 @@
-#Angular2 Bootstrap Modal Service
+#Angular6 Bootstrap Modal Service
 
-It is a library to make usage of bootstrap modal plugin easier in Angular2. 
+It is a library to make usage of bootstrap modal plugin easier in Angular6+. 
 Create clear and reusable modal components.
 It makes managing dialogs painless and clearer. 
 
